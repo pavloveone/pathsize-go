@@ -1,4 +1,4 @@
-module github.com/pavloveone/go-project-242
+module github.com/pavloveone/pathsize-go
 
 go 1.23.1
 

@@ -6,7 +6,7 @@ import (
 
 	"os"
 
-	code "github.com/pavloveone/go-project-242"
+	code "github.com/pavloveone/pathsize-go"
 	"github.com/urfave/cli/v3"
 )
 
@@ -32,7 +32,7 @@ var flags = []cli.Flag{
 
 func main() {
 	command := &cli.Command{
-		Name:  "hexlet-path-size",
+		Name:  "pathsize",
 		Usage: "print size of a file or directory; supports -r (recursive), -H (human-readable), -a (include hidden)",
 		Flags: flags,
 		Action: func(ctx context.Context, c *cli.Command) error {
